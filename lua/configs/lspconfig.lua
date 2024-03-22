@@ -4,7 +4,25 @@ local on_init = require("nvchad.configs.lspconfig").on_init
 local capabilities = require("nvchad.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
-local servers = { "html", "cssls" }
+local servers = { 
+  "html", 
+  "cssls",
+  "tsserver",
+  "awk_ls",
+  "bashls",
+  "docker_compose_language_service",
+  "dockerls",
+  "dotls",
+  "jqls",
+  "jsonls",
+  "marksman",
+  "r_language_server",
+  "sqlls",
+  "terraformls",
+  "texlab",
+  "yamlls",
+  "pyright",
+}
 
 -- lsps with default config
 for _, lsp in ipairs(servers) do
