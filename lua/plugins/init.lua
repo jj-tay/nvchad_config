@@ -28,7 +28,7 @@ return {
         "deno",
         "awk-language-server",
         "bash-language-server",
-        "docker-compose-language-server",
+        "docker-compose-language-service",
         "dockerfile-language-server",
         "dot-language-server",
         "jq-lsp",
