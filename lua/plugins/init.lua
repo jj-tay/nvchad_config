@@ -90,7 +90,7 @@ return {
   },
 
   {
-    "jalvesap/Nvim-R",
+    "jalvesaq/Nvim-R",
     ft = "r",
   },
 }
