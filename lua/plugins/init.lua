@@ -86,7 +86,7 @@ return {
 
   {
     "christoomey/vim-tmux-navigator",
-    lazy = false,q
+    lazy = false,
   },
 
   {
