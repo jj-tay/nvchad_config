@@ -19,10 +19,10 @@ return {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
-        "lua-language-server", 
+        "lua-language-server",
         "stylua",
-        "html-lsp", 
-        "css-lsp" , 
+        "html-lsp",
+        "css-lsp" ,
         "prettier",
         "typescript-language-server",
         "deno",
@@ -86,7 +86,8 @@ return {
 
   {
     "christoomey/vim-tmux-navigator",
-    event = "BufReadPre"
+    event = "BufReadPre",
+    lazy = false
   },
 
   {
