@@ -22,7 +22,7 @@ return {
         "lua-language-server",
         "stylua",
         "html-lsp",
-        "css-lsp" ,
+        "css-lsp",
         "prettier",
         "typescript-language-server",
         "deno",
@@ -37,18 +37,19 @@ return {
         "sqlls",
         "terraform-ls",
         "texlab",
+        "latexindent",
         "yaml-language-server",
         "pyright",
         "gitlint",
         "jsonlint",
         "markdownlint",
         "sqlfluff",
-        "yamllint",
+        "yamlfmt",
         "black",
       },
     },
   },
-  
+
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
@@ -87,7 +88,7 @@ return {
   {
     "christoomey/vim-tmux-navigator",
     event = "BufReadPre",
-    lazy = false
+    lazy = false,
   },
 
   {

@@ -1,8 +1,19 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    -- css = { "prettier" },
-    -- html = { "prettier" },
+    css = { "prettier" },
+    html = { "prettier" },
+    tss = {"deno"},
+    awk = {"awk"},
+    sh = {"shfmt"},
+    jq = {"jq"},
+    json = {"deno"},
+    md = {"markdownlint"},
+    sql = {"sqlfluff"},
+    tf = {"terraform_fmt"},
+    tex = {"latexindent"},
+    yaml = {"yamlfmt"},
+    py = {"black"},
   },
 
   -- format_on_save = {
