@@ -21,7 +21,7 @@ local servers = {
   "terraformls",
   "texlab",
   "yamlls",
-  "pyright",
+  "ruff",
 }
 
 -- lsps with default config
