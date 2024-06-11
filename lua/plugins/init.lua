@@ -45,7 +45,7 @@ return {
         "markdownlint",
         "sqlfluff",
         "yamlfmt",
-        "black",
+        "ruff",
       },
     },
   },
