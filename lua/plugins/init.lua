@@ -39,7 +39,6 @@ return {
         "texlab",
         "latexindent",
         "yaml-language-server",
-        "pyright",
         "gitlint",
         "jsonlint",
         "markdownlint",
