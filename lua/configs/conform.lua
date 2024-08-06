@@ -13,7 +13,7 @@ local options = {
     tf = {"terraform_fmt"},
     tex = {"latexindent"},
     yaml = {"yamlfmt"},
-    py = {"black"},
+    py = {"ruff"},
   },
 
   -- format_on_save = {
