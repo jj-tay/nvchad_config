@@ -15,36 +15,6 @@ return {
 
   {
     "williamboman/mason.nvim",
-    opts = {
-      ensure_installed = {
-        "lua-language-server",
-        "stylua",
-        "html-lsp",
-        "css-lsp",
-        "prettier",
-        "typescript-language-server",
-        "deno",
-        "awk-language-server",
-        "bash-language-server",
-        "docker-compose-language-service",
-        "dockerfile-language-server",
-        "dot-language-server",
-        "jq-lsp",
-        "json-lsp",
-        "marksman",
-        "sqlls",
-        "terraform-ls",
-        "texlab",
-        "latexindent",
-        "yaml-language-server",
-        "gitlint",
-        "jsonlint",
-        "markdownlint",
-        "sqlfluff",
-        "yamlfmt",
-        "ruff",
-      },
-    },
   },
 
   {
