@@ -14,6 +14,10 @@ return {
   },
 
   {
+    "mfussenegger/nvim-lint",
+  },
+
+  {
     "williamboman/mason.nvim",
   },
 
