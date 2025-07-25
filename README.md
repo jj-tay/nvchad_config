@@ -7,3 +7,19 @@
 # Credits
 
 1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+
+# DAP Keybindings
+
+Here are some suggested keybindings for debugging with [nvim-dap](https://github.com/mfussenegger/nvim-dap) and [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui):
+
+| Key              | Action                                     |
+|------------------|--------------------------------------------|
+| `<F5>`           | Continue / start                           |
+| `<F10>`          | Step over                                  |
+| `<F11>`          | Step into                                  |
+| `<F12>`          | Step out                                   |
+| `<Leader>db`     | Toggle breakpoint                          |
+| `<Leader>dB`     | Set conditional breakpoint                 |
+| `<Leader>dr`     | Open REPL                                  |
+| `<Leader>dl`     | Run last                                   |
+| `<Leader>du`     | Toggle DAP UI                              |

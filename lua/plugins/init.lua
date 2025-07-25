@@ -98,4 +98,31 @@ return {
       { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" },
     },
   },
+
+  -- Debug Adapter Protocol (DAP) and Python debug support
+  {
+    "mfussenegger/nvim-dap",
+    config = function()
+      require("configs.dap")
+    end,
+  },
+  {
+    "rcarriga/nvim-dap-ui",
+    dependencies = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" },
+  },
+  {
+    "theHamsta/nvim-dap-virtual-text",
+    dependencies = { "mfussenegger/nvim-dap" },
+    opts = {},
+  },
+  {
+    "mfussenegger/nvim-dap-python",
+    ft = "python",
+    dependencies = { "mfussenegger/nvim-dap" },
+    config = function()
+      -- Use debugpy from mason-managed venv for nvim-dap-python
+      local mason_python = vim.fn.stdpath("data") .. "/mason/packages/debugpy/venv/bin/python"
+      require("dap-python").setup(mason_python)
+    end,
+  },
 }
