@@ -52,7 +52,19 @@ return {
         "regex",
         "sql",
         "yaml",
+        "rnoweb"
       },
+    },
+  },
+
+  {
+    "R-nvim/cmp-r",
+    {
+        "hrsh7th/nvim-cmp",
+        config = function()
+            require("cmp").setup({ sources = {{ name = "cmp_r" }}})
+            require("cmp_r").setup({})
+        end,
     },
   },
 
@@ -63,7 +75,7 @@ return {
   },
 
   {
-    "jalvesaq/Nvim-R",
+    "R-nvim/R.nvim",
     ft = "r",
   },
 
