@@ -50,6 +50,7 @@ return {
         "python",
         "r",
         "regex",
+        "rnoweb",
         "sql",
         "yaml",
         "rnoweb"
