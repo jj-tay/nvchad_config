@@ -54,7 +54,8 @@ return {
         "rnoweb",
         "sql",
         "yaml",
-        "rnoweb"
+        "rnoweb",
+        "csv"
       },
     },
   },
